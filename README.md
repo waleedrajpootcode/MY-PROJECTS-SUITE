@@ -2,12 +2,16 @@
 
 # ⚡ NEXUS // CORE
 ### Enterprise Multi-Platform Web Suite & Cloud Sandbox Runner
-**Engineered & Maintained by [Waleed Rajpoot](https://github.com/)**
+**Engineered & Maintained by [Waleed Rajpoot](https://github.com/waleedrajpootcode)**
 
 <br/>
 
-[![Author - Waleed Rajpoot](https://img.shields.io/badge/Architect-Waleed%20Rajpoot-6366F1?style=for-the-badge&logo=github&logoColor=white)](#-lead-software-architect)
-[![Status - Production](https://img.shields.io/badge/Deployment-Production%20Ready-10B981?style=for-the-badge&logo=statuspage&logoColor=white)](#)
+[![Live Demo](https://img.shields.io/badge/🔴%20LIVE%20DEMO-Launch%20Nexus%20Suite-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=black)](https://waleedrajpootcode.github.io/MY-PROJECTS-SUITE/)
+
+<br/>
+
+[![Author - Waleed Rajpoot](https://img.shields.io/badge/Architect-Waleed%20Rajpoot-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waleedrajpootcode)
+[![Status - Production](https://img.shields.io/badge/Deployment-Live%20on%20GitHub%20Pages-10B981?style=for-the-badge&logo=statuspage&logoColor=white)](https://waleedrajpootcode.github.io/MY-PROJECTS-SUITE/)
 [![Performance - 100](https://img.shields.io/badge/Lighthouse-100%2F100-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white)](#-performance-benchmarks)
 [![Dependencies - Zero](https://img.shields.io/badge/Dependencies-Zero%20Overhead-F59E0B?style=for-the-badge&logo=shield&logoColor=white)](#)
 [![License - MIT](https://img.shields.io/badge/License-MIT-F43F5E?style=for-the-badge)](#)
@@ -17,6 +21,8 @@
 <p align="center">
   A high-velocity, production-grade enterprise software portal orchestrating <b>five independent web applications</b> across E-Commerce, B2B SaaS, Hospitality, and Portfolio sectors. Featuring an integrated real-time device sandbox runner, sub-millisecond query filtering, and 100% native client-side architecture.
 </p>
+
+### 🌐 **Live Production Link:** [https://waleedrajpootcode.github.io/MY-PROJECTS-SUITE/](https://waleedrajpootcode.github.io/MY-PROJECTS-SUITE/)
 
 [Explore Systems](#-system-architecture) • [Live Device Sandbox](#-integrated-cloud-sandbox) • [Tech Stack](#-technical-specifications) • [Deploy Instructions](#-quick-start)
 
@@ -33,10 +39,8 @@
 
 Specializing in scalable frontend systems, high-converting digital product design, sub-second web performance, and production client architectures.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](#)
-[![Portfolio](https://img.shields.io/badge/Live-Portfolio-6366F1?style=flat-square&logo=safari&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Inquiries-Contact%20Direct-EA4335?style=flat-square&logo=gmail&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-@waleedrajpootcode-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/waleedrajpootcode)
+[![Live Showcase](https://img.shields.io/badge/Live-Nexus%20Suite-6366F1?style=flat-square&logo=safari&logoColor=white)](https://waleedrajpootcode.github.io/MY-PROJECTS-SUITE/)
 
 </div>
 
@@ -69,15 +73,14 @@ Nexus Core operates as a zero-dependency host container. It indexes, routes, and
                                          │ • Developer Lab & Bio │
                                          │   (Technical Records) │
                                          └───────────────────────┘
-
 📦 Cluster Portfolio & System Registry
 Each cluster within this repository represents a standalone, client-ready software project built with semantic precision:
 Identifier	System Application	Cluster Path	Primary Vertical	Engineering Specs	Status
-01	ShopEase Retail Suite	/Ecommerce_Project	E-Commerce	Dynamic product carousels, persistent cart workflows, flash-sale countdown timers, and customer reviews.	![Image](https://img.shields.io/badge/Active-10B981?style=flat-square)
-02	Vogue Fashion Boutique	/Fashan web project	Retail / Apparel	Mobile-first editorial layouts, lookbook catalogs, reactive micro-interactions, and visual lookbooks.	![Image](https://img.shields.io/badge/Active-10B981?style=flat-square)
-03	Nexa SaaS & Agency	/Nexa web Project	SaaS / B2B	Dark cybernetic UI, multi-tiered pricing matrices, interactive conversion funnels, and enterprise components.	![Image](https://img.shields.io/badge/Active-10B981?style=flat-square)
-04	Gourmet Bistro Dining	/Resturant web project	Hospitality	Categorized chef menus, customer table reservation flows, and high-fidelity food imagery presentation.	![Image](https://img.shields.io/badge/Active-10B981?style=flat-square)
-05	Waleed Rajpoot Portfolio	/My Portfolio	Personal Lab	Verified technical skills, interactive project galleries, direct client contact gateways, and glassmorphic UI.	![Image](https://img.shields.io/badge/Active-10B981?style=flat-square)
+01	ShopEase Retail Suite	/Ecommerce_Project	E-Commerce	Dynamic product carousels, persistent cart workflows, flash-sale countdown timers, and customer reviews.	![Image](https://img.shields.io/badge/Live%20Sandbox-10B981?style=flat-square)
+02	Vogue Fashion Boutique	/Fashan web project	Retail / Apparel	Mobile-first editorial layouts, lookbook catalogs, reactive micro-interactions, and visual lookbooks.	![Image](https://img.shields.io/badge/Live%20Sandbox-10B981?style=flat-square)
+03	Nexa SaaS & Agency	/Nexa web Project	SaaS / B2B	Dark cybernetic UI, multi-tiered pricing matrices, interactive conversion funnels, and enterprise components.	![Image](https://img.shields.io/badge/Live%20Sandbox-10B981?style=flat-square)
+04	Gourmet Bistro Dining	/Resturant web project	Hospitality	Categorized chef menus, customer table reservation flows, and high-fidelity food imagery presentation.	![Image](https://img.shields.io/badge/Live%20Sandbox-10B981?style=flat-square)
+05	Waleed Rajpoot Portfolio	/My Portfolio	Personal Lab	Verified technical skills, interactive project galleries, direct client contact gateways, and glassmorphic UI.	![Image](https://img.shields.io/badge/Live%20Sandbox-10B981?style=flat-square)
 🛠️ Integrated Cloud Sandbox Features
 Recruiters, clients, and technical reviewers can live-test any of the five platforms without opening new tabs:
 🖥️ Multi-Device Viewport Switching:
@@ -96,6 +99,7 @@ F — Toggle full-screen studio mode
 code
 Yaml
 Architect: Waleed Rajpoot
+Live Production: https://waleedrajpootcode.github.io/MY-PROJECTS-SUITE/
 Frontend Engine: Native Web Standards (HTML5 Semantic Spec)
 Styling Engine: CSS3 Custom Properties (BEM Architecture, CSS Grid, Flexbox)
 Scripting: ES6+ JavaScript (Asynchronous DOM, Event Delegation, Iframe API)
@@ -114,8 +118,8 @@ SEO             [████████████████████] 1
 1. Clone the Ecosystem
 code
 Bash
-git clone https://github.com/your-username/nexus-core-suite.git
-cd nexus-core-suite
+git clone https://github.com/waleedrajpootcode/MY-PROJECTS-SUITE.git
+cd MY-PROJECTS-SUITE
 2. Run Instantly (No Build or Install Step)
 Open index.html directly in any web browser, or launch using a local development server:
 code
@@ -125,11 +129,6 @@ python -m http.server 3000
 
 # Option B: Node.js (npx)
 npx serve .
-3. Deploy to GitHub Pages (1-Click)
-Push this repository to your GitHub account.
-Go to Settings > Pages.
-Under Branch, select main / root and click Save.
-Your multi-project SaaS hub will be live globally in under 60 seconds!
 <div align="center">
 Designed & Engineered with precision by Waleed Rajpoot
 Available for Full-Stack, SaaS & Frontend Engineering Opportunities.
