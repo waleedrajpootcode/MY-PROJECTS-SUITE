@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Production-grade SaaS web applications ecosystem showcasing high-performance enterprise frontend engineering.">
+    <meta name="theme-color" content="#06080F">
+    <title>SaaS Studio Hub — Multi-Project Cloud Ecosystem</title>
+
+    <!-- Font Awesome Pro Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Mesh Gradients -->
+    <div class="mesh-sphere sphere-primary"></div>
+    <div class="mesh-sphere sphere-cyan"></div>
+    <div class="mesh-sphere sphere-violet"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Telemetry System Topbar -->
+    <aside class="telemetry-bar">
+        <div class="telemetry-container">
+            <div class="telemetry-item">
+                <span class="radar-dot"></span>
+                <span>SYSTEM STATUS: <strong>OPERATIONAL</strong></span>
+            </div>
+            <div class="telemetry-divider"></div>
+            <div class="telemetry-item hide-mobile">
+                <i class="fa-solid fa-server"></i>
+                <span>EDGE GATEWAY: <strong>AP-SOUTH-1 (24ms)</strong></span>
+            </div>
+            <div class="telemetry-divider hide-mobile"></div>
+            <div class="telemetry-item">
+                <span class="version-badge">v2.4.1-RELEASE</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Global App Header -->
+    <header class="app-header">
+        <div class="nav-wrapper">
+            <a href="#hero" class="brand-identity">
+                <div class="brand-box">
+                    <i class="fa-solid fa-cube"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">NEXUS<span>//CORE</span></span>
+                    <span class="brand-sub">SaaS Application Engine</span>
+                </div>
+            </a>
+
+            <nav class="nav-controls">
+                <div class="status-indicator">
+                    <span class="status-pulse"></span>
+                    <span class="status-text">5 Active Clusters</span>
+                </div>
+                <a href="#projects" class="cta-nav-button">
+                    <span>Inspect Repos</span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main class="page-container" id="hero">
+        
+        <!-- Hero Section -->
+        <section class="hero-stage">
+            <div class="eyebrow-chip">
+                <i class="fa-solid fa-microchip"></i>
+                <span>FULL-STACK ARCHITECTURAL SUITE</span>
+            </div>
+
+            <h1 class="hero-headline">
+                Engineered for Scale.<br>
+                <span class="gradient-text">Five Production Systems.</span>
+            </h1>
+
+            <p class="hero-lead">
+                A unified showcase of production-ready web platforms — featuring enterprise e-commerce systems, high-converting SaaS landing hubs, responsive restaurant management, and creative engineering architectures.
+            </p>
+
+            <!-- Engineering Metrics HUD -->
+            <div class="metrics-hud">
+                <div class="hud-card">
+                    <div class="hud-header">
+                        <span class="hud-label">APPLICATIONS</span>
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <div class="hud-value">05<span class="hud-unit">Active</span></div>
+                    <p class="hud-sub">Production verified</p>
+                </div>
+
+                <div class="hud-card">
+                    <div class="hud-header">
+                        <span class="hud-label">PERFORMANCE</span>
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div class="hud-value">99.8<span class="hud-unit">Score</span></div>
+                    <p class="hud-sub">Sub-millisecond paint</p>
+                </div>
+
+                <div class="hud-card">
+                    <div class="hud-header">
+                        <span class="hud-label">RESPONSIVENESS</span>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="hud-value">100<span class="hud-unit">%</span></div>
+                    <p class="hud-sub">Adaptive device grid</p>
+                </div>
+
+                <div class="hud-card">
+                    <div class="hud-header">
+                        <span class="hud-label">DEPENDENCY RISK</span>
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="hud-value">ZERO<span class="hud-unit">Ext</span></div>
+                    <p class="hud-sub">Vanilla architecture</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Command Filter Toolbar -->
+        <section class="catalog-section" id="projects">
+            <div class="catalog-toolbar">
+                <div class="filter-pills" id="filter-pills" role="tablist">
+                    <button class="pill-btn active" data-filter="all" role="tab">All Systems (5)</button>
+                    <button class="pill-btn" data-filter="ecommerce" role="tab">E-Commerce (2)</button>
+                    <button class="pill-btn" data-filter="saas" role="tab">SaaS & Agency (1)</button>
+                    <button class="pill-btn" data-filter="hospitality" role="tab">Hospitality (1)</button>
+                    <button class="pill-btn" data-filter="portfolio" role="tab">Portfolio (1)</button>
+                </div>
+
+                <div class="catalog-search">
+                    <i class="fa-solid fa-terminal search-icon"></i>
+                    <input type="text" id="project-search-input" placeholder="Query by system title, category, or stack..." autocomplete="off">
+                    <kbd class="search-shortcut hide-mobile">/</kbd>
+                </div>
+            </div>
+
+            <!-- Projects Grid Container -->
+            <div class="projects-grid" id="projects-grid">
+                <!-- Injected dynamically via script.js -->
+            </div>
+        </section>
+    </main>
+
+    <!-- ==============================================
+         CLOUD SANDBOX / DEVICE VIEWPORT MODAL
+    =============================================== -->
+    <div class="sandbox-modal" id="sandbox-modal" aria-hidden="true" role="dialog">
+        <div class="sandbox-overlay" id="sandbox-overlay"></div>
+        
+        <div class="sandbox-frame" id="sandbox-frame">
+            <!-- Simulated Browser Chrome -->
+            <div class="browser-chrome">
+                <div class="window-toggles">
+                    <button class="toggle-btn btn-close" id="modal-close" title="Close (ESC)"></button>
+                    <button class="toggle-btn btn-min hide-mobile" id="modal-reload" title="Reload Project"></button>
+                    <button class="toggle-btn btn-max hide-mobile" id="modal-fullscreen" title="Toggle Fullscreen (F)"></button>
+                </div>
+
+                <!-- Responsive Device Switcher -->
+                <div class="viewport-controls">
+                    <button class="viewport-btn active" data-size="desktop" title="Desktop [1]">
+                        <i class="fa-solid fa-desktop"></i>
+                        <span class="hide-mobile">Desktop</span>
+                    </button>
+                    <button class="viewport-btn" data-size="laptop" title="Laptop [2]">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span class="hide-mobile">Laptop</span>
+                    </button>
+                    <button class="viewport-btn" data-size="tablet" title="Tablet [3]">
+                        <i class="fa-solid fa-tablet-screen-button"></i>
+                        <span class="hide-mobile">Tablet</span>
+                    </button>
+                    <button class="viewport-btn" data-size="mobile" title="Mobile [4]">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <span class="hide-mobile">Mobile</span>
+                    </button>
+                </div>
+
+                <!-- Address Telemetry Bar -->
+                <div class="chrome-address-bar">
+                    <i class="fa-solid fa-shield-halved security-icon"></i>
+                    <span id="chrome-url-text">https://sandbox.internal/app</span>
+                    <button class="copy-url-btn" id="copy-url-btn" title="Copy URL">
+                        <i class="fa-regular fa-copy"></i>
+                    </button>
+                </div>
+
+                <!-- External Launch Icon -->
+                <div class="chrome-actions">
+                    <a href="#" target="_blank" id="chrome-external-link" class="external-tab-btn" title="Open in dedicated tab">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Simulated Browser Body with Loader -->
+            <div class="viewport-stage" id="viewport-stage">
+                <div class="iframe-skeleton" id="iframe-skeleton">
+                    <div class="loader-pulse"></div>
+                    <span>Initializing Edge Sandbox...</span>
+                </div>
+                <iframe id="sandbox-iframe" src="" title="Live Project Demonstration" allow="fullscreen"></iframe>
+            </div>
+
+            <!-- Device Dimension Footer -->
+            <div class="frame-statusbar">
+                <span id="dimension-indicator">Viewport: 100% Fluid Width</span>
+                <span class="shortcut-tip hide-mobile">Hotkeys: <strong>ESC</strong> Exit | <strong>1-4</strong> Switch View | <strong>F</strong> Fullscreen</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Global Toast -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="footer-logo">NEXUS<span>//CORE</span></span>
+                <p>Engineered with zero third-party framework overhead. Built for recruiters, tech leads, and enterprise evaluations.</p>
+            </div>
+            <div class="footer-right">
+                <span class="footer-tag">MIT License</span>
+                <span class="footer-tag">Vanilla Architecture</span>
+                <span class="footer-tag">2026 Ready</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

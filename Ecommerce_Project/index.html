@@ -1,0 +1,2993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ShopEase — a modern, responsive ecommerce shopping experience.">
+    <meta name="theme-color" content="#111827">
+    <title>ShopEase — Modern Online Shopping</title>
+
+    <!-- External Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Application Styles -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<!-- =========================
+     SECTION 1: HEADER / NAVBAR
+========================= -->
+
+<header class="site-header" id="site-header">
+
+    <!-- Announcement Bar -->
+   
+
+    <!-- Main Navbar -->
+    <nav class="navbar">
+
+        <div class="navbar-container">
+
+            <!-- Logo -->
+            <a href="#home" class="brand-logo" aria-label="ShopEase Home">
+                <span class="logo-mark">QA</span>
+                <span class="logo-text">Shop<span>Ease</span></span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <ul class="nav-menu" id="nav-menu">
+
+                <li>
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+
+                <li>
+                    <a href="#shop" class="nav-link">Shop</a>
+                </li>
+
+                <li>
+                    <a href="#categories" class="nav-link">Categories</a>
+                </li>
+
+                <li>
+                    <a href="#new-arrivals" class="nav-link">New Arrivals</a>
+                </li>
+
+                <li>
+                    <a href="#deals" class="nav-link">Deals</a>
+                </li>
+
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
+
+            <!-- Navbar Actions -->
+            <div class="nav-actions">
+
+                <!-- Search -->
+                <button class="nav-action search-btn"
+                        type="button"
+                        aria-label="Search products">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <!-- Wishlist -->
+                <a href="#wishlist"
+                   class="nav-action action-with-badge"
+                   aria-label="Wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="action-badge">0</span>
+                </a>
+
+                <!-- Cart -->
+                <a href="#cart"
+                   class="nav-action action-with-badge"
+                   aria-label="Shopping cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="action-badge">0</span>
+                </a>
+
+                <!-- Account -->
+                <a href="#account"
+                   class="nav-action account-btn"
+                   aria-label="My Account">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+
+                <!-- Mobile Menu Button -->
+                <button class="menu-toggle"
+                        id="menu-toggle"
+                        type="button"
+                        aria-label="Open navigation menu"
+                        aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+
+</header>
+<!-- =========================
+     SECTION 2: ANNOUNCEMENT BAR
+========================= -->
+
+<div class="announcement-bar" id="announcement-bar">
+    <div class="announcement-container">
+
+        <div class="announcement-item">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span>Free Shipping on Orders Over $50</span>
+        </div>
+
+        <span class="announcement-divider"></span>
+
+        <div class="announcement-item">
+            <i class="fa-solid fa-rotate-left"></i>
+            <span>Easy Returns</span>
+        </div>
+
+        <span class="announcement-divider"></span>
+
+        <div class="announcement-item">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>Secure Checkout</span>
+        </div>
+
+    </div>
+</div>
+<!-- =========================
+     SECTION 3: HERO
+========================= -->
+
+<section class="hero-section" id="home">
+
+    <div class="hero-container">
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+
+            <span class="hero-eyebrow">
+                NEW SEASON COLLECTION
+            </span>
+
+            <h1>
+                Discover Your
+                <span>Perfect Style</span>
+            </h1>
+
+            <p class="hero-description">
+                Explore thoughtfully selected fashion, footwear and
+                accessories designed to bring timeless style into
+                your everyday wardrobe.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#shop" class="hero-btn hero-btn-primary">
+                    Shop Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#categories" class="hero-btn hero-btn-secondary">
+                    Explore Collection
+                </a>
+
+            </div>
+
+            <div class="hero-trust">
+
+                <div class="hero-trust-item">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Premium Quality</span>
+                </div>
+
+                <div class="hero-trust-item">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <span>Fast Delivery</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Hero Image -->
+        <div class="hero-visual">
+
+            <div class="hero-image-wrapper">
+
+                <img
+                    src="img/img.2.webp"
+                    alt="ShopEase fashion collection"
+                    class="hero-image"
+                    loading="eager"
+                >
+
+                <!-- Decorative Shape -->
+                <div class="hero-decoration hero-decoration-one"></div>
+                <div class="hero-decoration hero-decoration-two"></div>
+
+                <!-- Offer Card -->
+                <div class="hero-offer-card">
+
+                    <span class="offer-small">
+                        UP TO
+                    </span>
+
+                    <strong>40%</strong>
+
+                    <span class="offer-text">
+                        OFF
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     SECTION 4: SHOP BY CATEGORY
+========================= -->
+
+<section class="categories-section" id="categories">
+
+    <div class="categories-container">
+
+        <!-- Section Heading -->
+        <div class="section-heading">
+
+            <span class="section-eyebrow">
+                EXPLORE COLLECTIONS
+            </span>
+
+            <h2>Shop by Category</h2>
+
+            <p>
+                Find your favorite styles across our carefully
+                selected fashion collections.
+            </p>
+
+        </div>
+
+
+        <!-- Category Grid -->
+        <div class="category-grid">
+
+            <!-- Men -->
+            <a href="#shop-men" class="category-card">
+
+                <div class="category-image-wrapper">
+                    <img
+                        src="img/img.3.jpg"
+                        alt="Men's fashion"
+                        class="category-image"
+                        loading="lazy"
+                    >
+
+                    <div class="category-overlay"></div>
+
+                    <span class="category-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </div>
+
+                <div class="category-content">
+                    <h3>Men</h3>
+                    <span>Explore Collection</span>
+                </div>
+
+            </a>
+
+
+            <!-- Women -->
+            <a href="#shop-women" class="category-card">
+
+                <div class="category-image-wrapper">
+                    <img
+                        src="img/img.4.jpg"
+                        alt="Women's fashion"
+                        class="category-image"
+                        loading="lazy"
+                    >
+
+                    <div class="category-overlay"></div>
+
+                    <span class="category-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </div>
+
+                <div class="category-content">
+                    <h3>Women</h3>
+                    <span>Explore Collection</span>
+                </div>
+
+            </a>
+
+
+            <!-- Shoes -->
+            <a href="#shop-shoes" class="category-card">
+
+                <div class="category-image-wrapper">
+                    <img
+                        src="img/img.6.avif"
+                        alt="Shoes collection"
+                        class="category-image"
+                        loading="lazy"
+                    >
+
+                    <div class="category-overlay"></div>
+
+                    <span class="category-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </div>
+
+                <div class="category-content">
+                    <h3>Shoes</h3>
+                    <span>Explore Collection</span>
+                </div>
+
+            </a>
+
+
+            <!-- Bags -->
+            <a href="#shop-bags" class="category-card">
+
+                <div class="category-image-wrapper">
+                    <img
+                        src="img/img.7.jpg"
+                        alt="Bags collection"
+                        class="category-image"
+                        loading="lazy"
+                    >
+
+                    <div class="category-overlay"></div>
+
+                    <span class="category-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </div>
+
+                <div class="category-content">
+                    <h3>Bags</h3>
+                    <span>Explore Collection</span>
+                </div>
+
+            </a>
+
+
+            <!-- Accessories -->
+            <a href="#shop-accessories" class="category-card">
+
+                <div class="category-image-wrapper">
+                    <img
+                        src="img/img..8.jpg"
+                        alt="Accessories collection"
+                        class="category-image"
+                        loading="lazy"
+                    >
+
+                    <div class="category-overlay"></div>
+
+                    <span class="category-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </div>
+
+                <div class="category-content">
+                    <h3>Accessories</h3>
+                    <span>Explore Collection</span>
+                </div>
+
+            </a>
+
+
+            <!-- Beauty -->
+            <a href="#shop-beauty" class="category-card">
+
+                <div class="category-image-wrapper">
+                    <img
+                        src="img/img.9.avif"
+                        alt="Beauty collection"
+                        class="category-image"
+                        loading="lazy"
+                    >
+
+                    <div class="category-overlay"></div>
+
+                    <span class="category-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </div>
+
+                <div class="category-content">
+                    <h3>Beauty</h3>
+                    <span>Explore Collection</span>
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     SECTION 5: FEATURED PRODUCTS
+========================= -->
+
+<section class="featured-products-section" id="shop">
+
+    <div class="featured-products-container">
+
+        <div class="section-heading featured-heading">
+            <span class="section-eyebrow">CURATED FOR YOU</span>
+
+            <h2>Featured Products</h2>
+
+            <p>
+                Discover some of our most loved styles and
+                carefully selected products.
+            </p>
+        </div>
+
+
+        <!-- Carousel -->
+        <div class="products-carousel">
+
+            <button
+                class="carousel-btn carousel-prev"
+                id="featured-prev"
+                type="button"
+                aria-label="Previous products">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+
+            <div class="products-viewport" id="featured-viewport">
+
+                <div class="products-track" id="featured-track">
+
+
+                    <!-- Product 01 -->
+                    <article class="product-card">
+
+                        <div class="product-image-wrapper">
+
+                            <img
+                                src="img/img.10.avif"
+                                alt="Classic Premium Shirt"
+                                class="product-image"
+                                loading="lazy">
+
+                            <span class="product-discount">
+                                -20%
+                            </span>
+
+                            <button
+                                class="product-wishlist"
+                                type="button"
+                                aria-label="Add Classic Premium Shirt to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button
+                                class="quick-view-btn"
+                                type="button">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Men
+                            </span>
+
+                            <h3>Classic Premium Shirt</h3>
+
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-number">4.8</span>
+                            </div>
+
+                            <div class="product-price">
+                                <strong>$39.99</strong>
+                                <del>$49.99</del>
+                            </div>
+
+                            <button
+                                class="add-cart-btn"
+                                type="button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 02 -->
+                    <article class="product-card">
+
+                        <div class="product-image-wrapper">
+
+                            <img
+                                src="img/img.11.jpg"
+                                alt="Elegant Women's Dress"
+                                class="product-image"
+                                loading="lazy">
+
+                            <span class="product-discount">
+                                -25%
+                            </span>
+
+                            <button
+                                class="product-wishlist"
+                                type="button"
+                                aria-label="Add Elegant Women's Dress to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button
+                                class="quick-view-btn"
+                                type="button">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Women
+                            </span>
+
+                            <h3>Elegant Women's Dress</h3>
+
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-number">4.9</span>
+                            </div>
+
+                            <div class="product-price">
+                                <strong>$59.99</strong>
+                                <del>$79.99</del>
+                            </div>
+
+                            <button
+                                class="add-cart-btn"
+                                type="button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 03 -->
+                    <article class="product-card">
+
+                        <div class="product-image-wrapper">
+
+                            <img
+                                src="img/img.12.jpg"
+                                alt="Urban Casual Sneakers"
+                                class="product-image"
+                                loading="lazy">
+
+                            <span class="product-discount">
+                                -15%
+                            </span>
+
+                            <button
+                                class="product-wishlist"
+                                type="button"
+                                aria-label="Add Urban Casual Sneakers to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button
+                                class="quick-view-btn"
+                                type="button">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Shoes
+                            </span>
+
+                            <h3>Urban Casual Sneakers</h3>
+
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-number">4.7</span>
+                            </div>
+
+                            <div class="product-price">
+                                <strong>$67.99</strong>
+                                <del>$79.99</del>
+                            </div>
+
+                            <button
+                                class="add-cart-btn"
+                                type="button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 04 -->
+                    <article class="product-card">
+
+                        <div class="product-image-wrapper">
+
+                            <img
+                                src="img/img.13.jpg"
+                                alt="Luxury Shoulder Bag"
+                                class="product-image"
+                                loading="lazy">
+
+                            <span class="product-discount">
+                                -30%
+                            </span>
+
+                            <button
+                                class="product-wishlist"
+                                type="button"
+                                aria-label="Add Luxury Shoulder Bag to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button
+                                class="quick-view-btn"
+                                type="button">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Bags
+                            </span>
+
+                            <h3>Luxury Shoulder Bag</h3>
+
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-number">4.8</span>
+                            </div>
+
+                            <div class="product-price">
+                                <strong>$69.99</strong>
+                                <del>$99.99</del>
+                            </div>
+
+                            <button
+                                class="add-cart-btn"
+                                type="button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 05 -->
+                    <article class="product-card">
+
+                        <div class="product-image-wrapper">
+
+                            <img
+                                src="img/img.14.jpg"
+                                alt="Minimalist Wrist Watch"
+                                class="product-image"
+                                loading="lazy">
+
+                            <span class="product-discount">
+                                -18%
+                            </span>
+
+                            <button
+                                class="product-wishlist"
+                                type="button"
+                                aria-label="Add Minimalist Wrist Watch to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button
+                                class="quick-view-btn"
+                                type="button">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Accessories
+                            </span>
+
+                            <h3>Minimalist Wrist Watch</h3>
+
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-number">4.6</span>
+                            </div>
+
+                            <div class="product-price">
+                                <strong>$44.99</strong>
+                                <del>$54.99</del>
+                            </div>
+
+                            <button
+                                class="add-cart-btn"
+                                type="button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 06 -->
+                    <article class="product-card">
+
+                        <div class="product-image-wrapper">
+
+                            <img
+                                src="img/img.15.jpg"
+                                alt="Premium Beauty Set"
+                                class="product-image"
+                                loading="lazy">
+
+                            <span class="product-discount">
+                                -22%
+                            </span>
+
+                            <button
+                                class="product-wishlist"
+                                type="button"
+                                aria-label="Add Premium Beauty Set to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button
+                                class="quick-view-btn"
+                                type="button">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Beauty
+                            </span>
+
+                            <h3>Premium Beauty Set</h3>
+
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-number">4.9</span>
+                            </div>
+
+                            <div class="product-price">
+                                <strong>$34.99</strong>
+                                <del>$44.99</del>
+                            </div>
+
+                            <button
+                                class="add-cart-btn"
+                                type="button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 07 -->
+                    <article class="product-card">
+
+                        <div class="product-image-wrapper">
+
+                            <img
+                                src="img/img.16.webp"
+                                alt="Relaxed Cotton T-Shirt"
+                                class="product-image"
+                                loading="lazy">
+
+                            <span class="product-discount">
+                                -20%
+                            </span>
+
+                            <button
+                                class="product-wishlist"
+                                type="button"
+                                aria-label="Add Relaxed Cotton T-Shirt to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button
+                                class="quick-view-btn"
+                                type="button">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Casual Wear
+                            </span>
+
+                            <h3>Relaxed Cotton T-Shirt</h3>
+
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-number">4.7</span>
+                            </div>
+
+                            <div class="product-price">
+                                <strong>$23.99</strong>
+                                <del>$29.99</del>
+                            </div>
+
+                            <button
+                                class="add-cart-btn"
+                                type="button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 08 -->
+                    <article class="product-card">
+
+                        <div class="product-image-wrapper">
+
+                            <img
+                                src="img/img.17.jpg"
+                                alt="Modern Formal Blazer"
+                                class="product-image"
+                                loading="lazy">
+
+                            <span class="product-discount">
+                                -28%
+                            </span>
+
+                            <button
+                                class="product-wishlist"
+                                type="button"
+                                aria-label="Add Modern Formal Blazer to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button
+                                class="quick-view-btn"
+                                type="button">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Formal Wear
+                            </span>
+
+                            <h3>Modern Formal Blazer</h3>
+
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-number">4.8</span>
+                            </div>
+
+                            <div class="product-price">
+                                <strong>$79.99</strong>
+                                <del>$109.99</del>
+                            </div>
+
+                            <button
+                                class="add-cart-btn"
+                                type="button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 09 -->
+                    <article class="product-card">
+
+                        <div class="product-image-wrapper">
+
+                            <img
+                                src="images/product-09.jpg"
+                                alt="Classic Leather Belt"
+                                class="product-image"
+                                loading="lazy">
+
+                            <span class="product-discount">
+                                -16%
+                            </span>
+
+                            <button
+                                class="product-wishlist"
+                                type="button"
+                                aria-label="Add Classic Leather Belt to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button
+                                class="quick-view-btn"
+                                type="button">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Accessories
+                            </span>
+
+                            <h3>Classic Leather Belt</h3>
+
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-number">4.5</span>
+                            </div>
+
+                            <div class="product-price">
+                                <strong>$25.99</strong>
+                                <del>$30.99</del>
+                            </div>
+
+                            <button
+                                class="add-cart-btn"
+                                type="button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 10 -->
+                    <article class="product-card">
+
+                        <div class="product-image-wrapper">
+
+                            <img
+                                src="images/product-10.jpg"
+                                alt="Premium Casual Hoodie"
+                                class="product-image"
+                                loading="lazy">
+
+                            <span class="product-discount">
+                                -24%
+                            </span>
+
+                            <button
+                                class="product-wishlist"
+                                type="button"
+                                aria-label="Add Premium Casual Hoodie to wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button
+                                class="quick-view-btn"
+                                type="button">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                Casual Wear
+                            </span>
+
+                            <h3>Premium Casual Hoodie</h3>
+
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-number">4.7</span>
+                            </div>
+
+                            <div class="product-price">
+                                <strong>$45.99</strong>
+                                <del>$59.99</del>
+                            </div>
+
+                            <button
+                                class="add-cart-btn"
+                                type="button">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+            </div>
+
+
+            <button
+                class="carousel-btn carousel-next"
+                id="featured-next"
+                type="button"
+                aria-label="Next products">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- Carousel Dots -->
+        <div class="carousel-dots" id="featured-dots"></div>
+
+    </div>
+
+</section>
+<!-- =========================
+     SECTION 6: FLASH SALE
+========================= -->
+
+<section class="flash-sale-section" id="deals">
+
+    <div class="flash-sale-container">
+
+        <div class="flash-sale-content">
+
+            <span class="flash-sale-eyebrow">
+                LIMITED TIME OFFER
+            </span>
+
+            <h2>
+                Flash Sale
+                <span>Up to 50% Off</span>
+            </h2>
+
+            <p>
+                Don't miss our limited-time offers. Shop your
+                favorite styles before the sale ends.
+            </p>
+
+
+            <!-- Countdown Timer -->
+            <div class="countdown-wrapper">
+
+                <span class="countdown-label">
+                    SALE ENDS IN
+                </span>
+
+                <div class="countdown-timer" id="flash-countdown">
+
+                    <div class="countdown-box">
+                        <strong id="flash-days">00</strong>
+                        <span>Days</span>
+                    </div>
+
+                    <span class="countdown-separator">:</span>
+
+                    <div class="countdown-box">
+                        <strong id="flash-hours">00</strong>
+                        <span>Hours</span>
+                    </div>
+
+                    <span class="countdown-separator">:</span>
+
+                    <div class="countdown-box">
+                        <strong id="flash-minutes">00</strong>
+                        <span>Min</span>
+                    </div>
+
+                    <span class="countdown-separator">:</span>
+
+                    <div class="countdown-box">
+                        <strong id="flash-seconds">00</strong>
+                        <span>Sec</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <a href="#shop-sale" class="flash-sale-btn">
+                Shop Sale
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- Sale Products -->
+        <div class="flash-products">
+
+            <!-- Sale Product 1 -->
+            <article class="flash-product-card">
+
+                <div class="flash-product-image">
+
+                    <img
+                        src="img/img.15.jpg"
+                        alt="Flash sale fashion product"
+                        loading="lazy">
+
+                    <span class="flash-discount">
+                        -40%
+                    </span>
+
+                </div>
+
+                <div class="flash-product-info">
+
+                    <span>Women's Collection</span>
+
+                    <h3>Elegant Fashion Dress</h3>
+
+                    <div class="flash-price">
+                        <strong>$47.99</strong>
+                        <del>$79.99</del>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Sale Product 2 -->
+            <article class="flash-product-card">
+
+                <div class="flash-product-image">
+
+                    <img
+                        src="img/img.16.webp"
+                        alt="Flash sale shoes"
+                        loading="lazy">
+
+                    <span class="flash-discount">
+                        -50%
+                    </span>
+
+                </div>
+
+                <div class="flash-product-info">
+
+                    <span>Footwear</span>
+
+                    <h3>Premium Casual Sneakers</h3>
+
+                    <div class="flash-price">
+                        <strong>$39.99</strong>
+                        <del>$79.99</del>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Sale Product 3 -->
+            <article class="flash-product-card">
+
+                <div class="flash-product-image">
+
+                    <img
+                        src="img/img.17.jpg"
+                        alt="Flash sale handbag"
+                        loading="lazy">
+
+                    <span class="flash-discount">
+                        -35%
+                    </span>
+
+                </div>
+
+                <div class="flash-product-info">
+
+                    <span>Accessories</span>
+
+                    <h3>Premium Shoulder Bag</h3>
+
+                    <div class="flash-price">
+                        <strong>$51.99</strong>
+                        <del>$79.99</del>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     SECTION 7: NEW ARRIVALS
+========================= -->
+
+<section class="new-arrivals-section" id="new-arrivals">
+
+    <div class="new-arrivals-container">
+
+        <!-- Section Heading -->
+        <div class="section-heading new-arrivals-heading">
+
+            <span class="section-eyebrow">
+                JUST IN
+            </span>
+
+            <h2>New Arrivals</h2>
+
+            <p>
+                Discover the latest additions to our collection.
+            </p>
+
+        </div>
+
+
+        <!-- New Arrivals Carousel -->
+        <div class="new-arrivals-carousel">
+
+            <button
+                class="new-arrivals-arrow new-arrivals-prev"
+                id="new-arrivals-prev"
+                type="button"
+                aria-label="Previous new arrivals">
+
+                <i class="fa-solid fa-chevron-left"></i>
+
+            </button>
+
+
+            <div
+                class="new-arrivals-viewport"
+                id="new-arrivals-viewport">
+
+                <div
+                    class="new-arrivals-track"
+                    id="new-arrivals-track">
+
+
+                    <!-- Product 1 -->
+                    <article class="new-arrival-card">
+
+                        <div class="new-arrival-image">
+
+                            <img
+                                src="img/img.18.jpg"
+                                alt="New arrival fashion product"
+                                loading="lazy">
+
+                            <span class="new-badge">
+                                NEW
+                            </span>
+
+                        </div>
+
+                        <div class="new-arrival-info">
+
+                            <span class="new-arrival-category">
+                                Men
+                            </span>
+
+                            <h3>Modern Casual Shirt</h3>
+
+                            <div class="new-arrival-price">
+                                <strong>$42.99</strong>
+                            </div>
+
+                            <button
+                                class="quick-add-btn"
+                                type="button">
+
+                                <i class="fa-solid fa-plus"></i>
+
+                                Quick Add
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 2 -->
+                    <article class="new-arrival-card">
+
+                        <div class="new-arrival-image">
+
+                            <img
+                                src="img/img.19.jpg"
+                                alt="New arrival women's fashion"
+                                loading="lazy">
+
+                            <span class="new-badge">
+                                NEW
+                            </span>
+
+                        </div>
+
+                        <div class="new-arrival-info">
+
+                            <span class="new-arrival-category">
+                                Women
+                            </span>
+
+                            <h3>Elegant Summer Dress</h3>
+
+                            <div class="new-arrival-price">
+                                <strong>$56.99</strong>
+                            </div>
+
+                            <button
+                                class="quick-add-btn"
+                                type="button">
+
+                                <i class="fa-solid fa-plus"></i>
+
+                                Quick Add
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 3 -->
+                    <article class="new-arrival-card">
+
+                        <div class="new-arrival-image">
+
+                            <img
+                                src="img/img.20.jpg"
+                                alt="New arrival sneakers"
+                                loading="lazy">
+
+                            <span class="new-badge">
+                                NEW
+                            </span>
+
+                        </div>
+
+                        <div class="new-arrival-info">
+
+                            <span class="new-arrival-category">
+                                Shoes
+                            </span>
+
+                            <h3>Street Style Sneakers</h3>
+
+                            <div class="new-arrival-price">
+                                <strong>$64.99</strong>
+                            </div>
+
+                            <button
+                                class="quick-add-btn"
+                                type="button">
+
+                                <i class="fa-solid fa-plus"></i>
+
+                                Quick Add
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 4 -->
+                    <article class="new-arrival-card">
+
+                        <div class="new-arrival-image">
+
+                            <img
+                                src="img/img.21.jpg"
+                                alt="New arrival handbag"
+                                loading="lazy">
+
+                            <span class="new-badge">
+                                NEW
+                            </span>
+
+                        </div>
+
+                        <div class="new-arrival-info">
+
+                            <span class="new-arrival-category">
+                                Bags
+                            </span>
+
+                            <h3>Structured Handbag</h3>
+
+                            <div class="new-arrival-price">
+                                <strong>$72.99</strong>
+                            </div>
+
+                            <button
+                                class="quick-add-btn"
+                                type="button">
+
+                                <i class="fa-solid fa-plus"></i>
+
+                                Quick Add
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 5 -->
+                    <article class="new-arrival-card">
+
+                        <div class="new-arrival-image">
+
+                            <img
+                                src="img/img.22.jpg"
+                                alt="New arrival accessories"
+                                loading="lazy">
+
+                            <span class="new-badge">
+                                NEW
+                            </span>
+
+                        </div>
+
+                        <div class="new-arrival-info">
+
+                            <span class="new-arrival-category">
+                                Accessories
+                            </span>
+
+                            <h3>Minimal Gold Watch</h3>
+
+                            <div class="new-arrival-price">
+                                <strong>$49.99</strong>
+                            </div>
+
+                            <button
+                                class="quick-add-btn"
+                                type="button">
+
+                                <i class="fa-solid fa-plus"></i>
+
+                                Quick Add
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 6 -->
+                    <article class="new-arrival-card">
+
+                        <div class="new-arrival-image">
+
+                            <img
+                                src="img/img.23.jpg"
+                                alt="New arrival beauty product"
+                                loading="lazy">
+
+                            <span class="new-badge">
+                                NEW
+                            </span>
+
+                        </div>
+
+                        <div class="new-arrival-info">
+
+                            <span class="new-arrival-category">
+                                Beauty
+                            </span>
+
+                            <h3>Essential Beauty Set</h3>
+
+                            <div class="new-arrival-price">
+                                <strong>$38.99</strong>
+                            </div>
+
+                            <button
+                                class="quick-add-btn"
+                                type="button">
+
+                                <i class="fa-solid fa-plus"></i>
+
+                                Quick Add
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="new-arrivals-arrow new-arrivals-next"
+                id="new-arrivals-next"
+                type="button"
+                aria-label="Next new arrivals">
+
+                <i class="fa-solid fa-chevron-right"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 8 — PROMOTIONAL BANNER
+========================================= -->
+
+<section class="promo-banner-section" id="collection-promo">
+
+    <div class="promo-banner-container">
+
+        <!-- Promotional Image -->
+        <div class="promo-banner-image">
+
+            <img
+                src="img/img.23.jpg"
+                alt="Seasonal fashion collection"
+                loading="lazy">
+
+        </div>
+
+
+        <!-- Promotional Content -->
+        <div class="promo-banner-content">
+
+            <span class="promo-eyebrow">
+                SEASONAL COLLECTION
+            </span>
+
+            <h2>
+                New Season,
+                <span>New Style</span>
+            </h2>
+
+            <p>
+                Refresh your wardrobe with our latest seasonal
+                collection and enjoy exclusive savings.
+            </p>
+
+            <div class="promo-offer">
+                <strong>UP TO 40% OFF</strong>
+                <span>Selected styles only</span>
+            </div>
+
+            <a
+                href="#shop"
+                class="promo-shop-btn">
+
+                Shop Collection
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 9 — BEST SELLERS
+========================================= -->
+
+<section class="best-sellers-section" id="best-sellers">
+
+    <div class="best-sellers-container">
+
+        <!-- Section Heading -->
+        <div class="section-heading best-sellers-heading">
+
+            <span class="section-eyebrow">
+                CUSTOMER FAVORITES
+            </span>
+
+            <h2>Best Sellers</h2>
+
+            <p>
+                Discover the products our customers love the most.
+            </p>
+
+        </div>
+
+
+        <!-- Products -->
+        <div class="best-sellers-grid">
+
+
+            <!-- Product 1 -->
+            <article class="best-seller-card">
+
+                <div class="best-seller-image">
+
+                    <img
+                        src="img/img.24.jpg"
+                        alt="Premium casual jacket"
+                        loading="lazy">
+
+                    <span class="best-seller-badge">
+                        POPULAR
+                    </span>
+
+                </div>
+
+                <div class="best-seller-info">
+
+                    <span class="best-seller-category">
+                        Men's Fashion
+                    </span>
+
+                    <h3>Premium Casual Jacket</h3>
+
+
+                    <div class="best-seller-rating">
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <span>(128 reviews)</span>
+
+                    </div>
+
+
+                    <div class="best-seller-bottom">
+
+                        <strong>$69.99</strong>
+
+                        <button
+                            class="best-add-cart"
+                            type="button">
+
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Product 2 -->
+            <article class="best-seller-card">
+
+                <div class="best-seller-image">
+
+                    <img
+                        src="img/img.25.webp"
+                        alt="Elegant women's dress"
+                        loading="lazy">
+
+                    <span class="best-seller-badge">
+                        SOLD OUT FAST
+                    </span>
+
+                </div>
+
+                <div class="best-seller-info">
+
+                    <span class="best-seller-category">
+                        Women's Fashion
+                    </span>
+
+                    <h3>Elegant Evening Dress</h3>
+
+
+                    <div class="best-seller-rating">
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <span>(96 reviews)</span>
+
+                    </div>
+
+
+                    <div class="best-seller-bottom">
+
+                        <strong>$84.99</strong>
+
+                        <button
+                            class="best-add-cart"
+                            type="button">
+
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Product 3 -->
+            <article class="best-seller-card">
+
+                <div class="best-seller-image">
+
+                    <img
+                        src="img/img.26.jpg"
+                        alt="Premium sneakers"
+                        loading="lazy">
+
+                    <span class="best-seller-badge">
+                        POPULAR
+                    </span>
+
+                </div>
+
+                <div class="best-seller-info">
+
+                    <span class="best-seller-category">
+                        Footwear
+                    </span>
+
+                    <h3>Premium Everyday Sneakers</h3>
+
+
+                    <div class="best-seller-rating">
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <span>(214 reviews)</span>
+
+                    </div>
+
+
+                    <div class="best-seller-bottom">
+
+                        <strong>$74.99</strong>
+
+                        <button
+                            class="best-add-cart"
+                            type="button">
+
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Product 4 -->
+            <article class="best-seller-card">
+
+                <div class="best-seller-image">
+
+                    <img
+                        src="img/img.27.webp"
+                        alt="Classic leather handbag"
+                        loading="lazy">
+
+                    <span class="best-seller-badge">
+                        POPULAR
+                    </span>
+
+                </div>
+
+                <div class="best-seller-info">
+
+                    <span class="best-seller-category">
+                        Accessories
+                    </span>
+
+                    <h3>Classic Leather Handbag</h3>
+
+
+                    <div class="best-seller-rating">
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <span>(173 reviews)</span>
+
+                    </div>
+
+
+                    <div class="best-seller-bottom">
+
+                        <strong>$89.99</strong>
+
+                        <button
+                            class="best-add-cart"
+                            type="button">
+
+                            <i class="fa-solid fa-cart-shopping"></i>
+
+                            Add to Cart
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 10 — PRODUCT COLLECTIONS
+========================================= -->
+
+<section class="product-collections-section" id="collections">
+
+    <div class="product-collections-container">
+
+        <div class="section-heading collections-heading">
+
+            <span class="section-eyebrow">
+                SHOP BY STYLE
+            </span>
+
+            <h2>Product Collections</h2>
+
+            <p>
+                Explore our collections and find a style
+                that fits you perfectly.
+            </p>
+
+        </div>
+
+
+        <div class="collections-grid">
+
+
+            <!-- Casual Wear -->
+            <a href="#shop" class="collection-card">
+
+                <div class="collection-image">
+
+                    <img
+                        src="img/img.29.jpg"
+                        alt="Casual Wear collection"
+                        loading="lazy">
+
+                </div>
+
+                <div class="collection-overlay"></div>
+
+                <div class="collection-content">
+
+                    <span>01</span>
+
+                    <h3>Casual Wear</h3>
+
+                    <div class="collection-link">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+                </div>
+
+            </a>
+
+
+            <!-- Formal Wear -->
+            <a href="#shop" class="collection-card">
+
+                <div class="collection-image">
+
+                    <img
+                        src="img/img.32.jpg"
+                        alt="Formal Wear collection"
+                        loading="lazy">
+
+                </div>
+
+                <div class="collection-overlay"></div>
+
+                <div class="collection-content">
+
+                    <span>02</span>
+
+                    <h3>Formal Wear</h3>
+
+                    <div class="collection-link">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+                </div>
+
+            </a>
+
+
+            <!-- Sports Wear -->
+            <a href="#shop" class="collection-card">
+
+                <div class="collection-image">
+
+                    <img
+                        src="img/img.33.webp"
+                        alt="Sports Wear collection"
+                        loading="lazy">
+
+                </div>
+
+                <div class="collection-overlay"></div>
+
+                <div class="collection-content">
+
+                    <span>03</span>
+
+                    <h3>Sports Wear</h3>
+
+                    <div class="collection-link">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+                </div>
+
+            </a>
+
+
+            <!-- Footwear -->
+            <a href="#shop" class="collection-card">
+
+                <div class="collection-image">
+
+                    <img
+                        src="images/collection-footwear.jpg"
+                        alt="Footwear collection"
+                        loading="lazy">
+
+                </div>
+
+                <div class="collection-overlay"></div>
+
+                <div class="collection-content">
+
+                    <span>04</span>
+
+                    <h3>Footwear</h3>
+
+                    <div class="collection-link">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+                </div>
+
+            </a>
+
+
+            <!-- Accessories -->
+            <a href="#shop" class="collection-card">
+
+                <div class="collection-image">
+
+                    <img
+                        src="images/collection-accessories.jpg"
+                        alt="Accessories collection"
+                        loading="lazy">
+
+                </div>
+
+                <div class="collection-overlay"></div>
+
+                <div class="collection-content">
+
+                    <span>05</span>
+
+                    <h3>Accessories</h3>
+
+                    <div class="collection-link">
+                        Explore Collection
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 11 — WHY SHOP WITH US?
+========================================= -->
+
+<section class="why-shop-section" id="why-shop">
+
+    <div class="why-shop-container">
+
+        <div class="section-heading why-shop-heading">
+
+            <span class="section-eyebrow">
+                SHOP WITH CONFIDENCE
+            </span>
+
+            <h2>Why Shop With Us?</h2>
+
+            <p>
+                We make every part of your shopping experience
+                simple, secure and reliable.
+            </p>
+
+        </div>
+
+
+        <div class="why-shop-grid">
+
+            <!-- Fast Delivery -->
+      <article class="why-shop-card">
+
+                <div class="why-shop-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <div class="why-shop-content">
+
+                    <h3>Fast Delivery</h3>
+
+                    <p>
+                        Your payment information is handled
+                        with secure checkout protection.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Secure Payment -->
+            <article class="why-shop-card">
+
+                <div class="why-shop-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <div class="why-shop-content">
+
+                    <h3>Secure Payment</h3>
+
+                    <p>
+                        Your payment information is handled
+                        with secure checkout protection.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Easy Returns -->
+            <article class="why-shop-card">
+
+                <div class="why-shop-icon">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </div>
+
+                <div class="why-shop-content">
+
+                    <h3>Easy Returns</h3>
+
+                    <p>
+                        Simple return options make shopping
+                        easier and more convenient.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Customer Support -->
+            <article class="why-shop-card">
+
+                <div class="why-shop-icon">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+
+                <div class="why-shop-content">
+
+                    <h3>Customer Support</h3>
+
+                    <p>
+                        Our support team is here to help
+                        whenever you need assistance.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Quality Products -->
+            <article class="why-shop-card">
+
+                <div class="why-shop-icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+
+                <div class="why-shop-content">
+
+                    <h3>Quality Products</h3>
+
+                    <p>
+                        Shop confidently with carefully
+                        selected quality products.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 12 — CUSTOMER REVIEWS
+========================================= -->
+
+<section class="customer-reviews-section" id="reviews">
+
+    <div class="customer-reviews-container">
+
+        <!-- Section Heading -->
+        <div class="section-heading reviews-heading">
+
+            <span class="section-eyebrow">
+                CUSTOMER LOVE
+            </span>
+
+            <h2>What Our Customers Say</h2>
+
+            <p>
+                Real experiences from customers who shop with ShopEase.
+            </p>
+
+        </div>
+
+
+        <!-- Reviews Grid -->
+        <div class="reviews-grid">
+
+
+            <!-- Review 1 -->
+            <article class="review-card">
+
+                <div class="review-top">
+
+                    <div class="customer-avatar">
+
+                        <img
+                            src="img/img.34.avif"
+                            alt="Sarah Johnson"
+                            loading="lazy">
+
+                    </div>
+
+                    <div class="customer-details">
+
+                        <h3>Sarah Johnson</h3>
+
+                        <span>Verified Customer</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="review-rating">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+
+
+                <p class="review-text">
+                    “The quality was excellent and the whole shopping
+                    experience was smooth. I will definitely shop here again.”
+                </p>
+
+
+                <div class="purchased-product">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                    <span>
+                        Purchased: Elegant Summer Dress
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- Review 2 -->
+            <article class="review-card">
+
+                <div class="review-top">
+
+                    <div class="customer-avatar">
+
+                        <img
+                            src="img/img.40.jpg"
+                            alt="Michael Anderson"
+                            loading="lazy">
+
+                    </div>
+
+                    <div class="customer-details">
+
+                        <h3>Rimshah</h3>
+
+                        <span>Verified Customer</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="review-rating">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+
+
+                <p class="review-text">
+                    “My order arrived on time and the product looked
+                    exactly like the pictures. Very happy with my purchase.”
+                </p>
+
+
+                <div class="purchased-product">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                    <span>
+                        Purchased: Premium Everyday Sneakers
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- Review 3 -->
+            <article class="review-card">
+
+                <div class="review-top">
+
+                    <div class="customer-avatar">
+
+                        <img
+                            src="img/img.41.jpg"
+                            alt="Emily Wilson"
+                            loading="lazy">
+
+                    </div>
+
+                    <div class="customer-details">
+
+                        <h3>Ali Khan</h3>
+
+                        <span>Verified Customer</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="review-rating">
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+
+
+                <p class="review-text">
+                    “Beautiful products, easy checkout and great service.
+                    Everything felt professional from start to finish.”
+                </p>
+
+
+                <div class="purchased-product">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                    <span>
+                        Purchased: Classic Leather Handbag
+                    </span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 13 — NEWSLETTER
+========================================= -->
+
+<section class="newsletter-section" id="newsletter">
+
+    <div class="newsletter-container">
+
+        <div class="newsletter-content">
+
+            <span class="newsletter-eyebrow">
+                STAY IN THE LOOP
+            </span>
+
+            <h2>
+                Get 10% Off Your First Order
+            </h2>
+
+            <p>
+                Subscribe to our newsletter and be the first
+                to know about new arrivals, offers and updates.
+            </p>
+
+        </div>
+
+
+        <form class="newsletter-form" id="newsletter-form">
+
+            <div class="newsletter-input-wrap">
+
+                <i class="fa-regular fa-envelope"></i>
+
+                <input
+                    type="email"
+                    id="newsletter-email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    autocomplete="email"
+                    required>
+
+            </div>
+
+            <button
+                type="submit"
+                class="newsletter-submit">
+
+                Subscribe
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </form>
+
+
+        <p
+            class="newsletter-message"
+            id="newsletter-message"
+            aria-live="polite">
+        </p>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 14 — INSTAGRAM / SOCIAL GALLERY
+========================================= -->
+
+<section class="social-gallery-section" id="social-gallery">
+
+    <div class="social-gallery-container">
+
+        <!-- Heading -->
+        <div class="section-heading social-gallery-heading">
+
+            <span class="section-eyebrow">
+                FOLLOW OUR STYLE
+            </span>
+
+            <h2>ShopEase on Social</h2>
+
+            <p>
+                Discover our latest fashion inspiration,
+                products and style updates.
+            </p>
+
+        </div>
+
+
+        <!-- Social Gallery -->
+        <div class="social-gallery-grid">
+
+            <!-- Image 1 -->
+            <a href="#" class="social-gallery-item"
+               aria-label="View ShopEase social post">
+
+                <img
+                    src="img/img.34.avif"
+                    alt="ShopEase fashion collection"
+                    loading="lazy">
+
+                <span class="social-gallery-overlay">
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+
+            </a>
+
+
+            <!-- Image 2 -->
+            <a href="#" class="social-gallery-item"
+               aria-label="View ShopEase social post">
+
+                <img
+                    src="img/img.35.jpg"
+                    alt="ShopEase fashion style"
+                    loading="lazy">
+
+                <span class="social-gallery-overlay">
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+
+            </a>
+
+
+            <!-- Image 3 -->
+            <a href="#" class="social-gallery-item"
+               aria-label="View ShopEase social post">
+
+                <img
+                    src="img/img.36.webp"
+                    alt="ShopEase product collection"
+                    loading="lazy">
+
+                <span class="social-gallery-overlay">
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+
+            </a>
+
+
+            <!-- Image 4 -->
+            <a href="#" class="social-gallery-item"
+               aria-label="View ShopEase social post">
+
+                <img
+                    src="img/img.37.jpg"
+                    alt="ShopEase seasonal fashion"
+                    loading="lazy">
+
+                <span class="social-gallery-overlay">
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+
+            </a>
+
+
+            <!-- Image 5 -->
+            <a href="#" class="social-gallery-item"
+               aria-label="View ShopEase social post">
+
+                <img
+                    src="img/img.38.webp"
+                    alt="ShopEase accessories"
+                    loading="lazy">
+
+                <span class="social-gallery-overlay">
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+
+            </a>
+
+
+            <!-- Image 6 -->
+            <a href="#" class="social-gallery-item"
+               aria-label="View ShopEase social post">
+
+                <img
+                    src="img/img.39.jpg"
+                    alt="ShopEase latest style"
+                    loading="lazy">
+
+                <span class="social-gallery-overlay">
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+
+            </a>
+
+        </div>
+
+
+        <!-- Social Link + Follow Button -->
+        <div class="social-gallery-footer">
+
+            <a
+                href="#"
+                class="social-media-link"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                <i class="fa-brands fa-instagram"></i>
+
+                @ShopEase
+
+            </a>
+
+            <a
+                href="#"
+                class="follow-us-btn"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                Follow Us
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 15 — TRUST / PAYMENT
+========================================= -->
+
+<section class="trust-payment-section" id="trust-payment">
+
+    <div class="trust-payment-container">
+
+        <div class="trust-payment-heading">
+
+            <span class="section-eyebrow">
+                SAFE & SECURE SHOPPING
+            </span>
+
+            <h2>Shop With Confidence</h2>
+
+            <p>
+                Your security and payment safety are important to us.
+            </p>
+
+        </div>
+
+
+        <div class="trust-payment-grid">
+
+            <!-- Visa -->
+            <div class="payment-method">
+
+                <div class="payment-icon visa-icon">
+                    <span>VISA</span>
+                </div>
+
+                <h3>Visa</h3>
+
+            </div>
+
+
+            <!-- Mastercard -->
+            <div class="payment-method">
+
+                <div class="payment-icon mastercard-icon">
+
+                    <span class="mastercard-circle circle-one"></span>
+                    <span class="mastercard-circle circle-two"></span>
+
+                    <span class="mastercard-text">
+                        Mastercard
+                    </span>
+
+                </div>
+
+                <h3>Mastercard</h3>
+
+            </div>
+
+
+            <!-- Cash on Delivery -->
+            <div class="payment-method">
+
+                <div class="payment-icon">
+                    <i class="fa-solid fa-money-bill-wave"></i>
+                </div>
+
+                <h3>Cash on Delivery</h3>
+
+            </div>
+
+
+            <!-- Secure Checkout -->
+            <div class="payment-method">
+
+                <div class="payment-icon">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+
+                <h3>Secure Checkout</h3>
+
+            </div>
+
+
+            <!-- SSL Security -->
+            <div class="payment-method">
+
+                <div class="payment-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <h3>SSL / Security</h3>
+
+            </div>
+
+        </div>
+
+
+        <div class="security-message">
+
+            <i class="fa-solid fa-shield-check"></i>
+
+            <span>
+                Your checkout information is protected
+                with secure SSL technology.
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 16 — FAQ
+========================================= -->
+
+<section class="faq-section" id="faq">
+
+    <div class="faq-container">
+
+        <div class="section-heading faq-heading">
+
+            <span class="section-eyebrow">
+                NEED HELP?
+            </span>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <p>
+                Find answers to the most common questions
+                about shopping with ShopEase.
+            </p>
+
+        </div>
+
+
+        <div class="faq-list">
+
+            <!-- FAQ 1 -->
+            <div class="faq-item active">
+
+                <button
+                    class="faq-question"
+                    type="button"
+                    aria-expanded="true"
+                    aria-controls="faq-answer-1">
+
+                    <span>
+                        How can I track my order?
+                    </span>
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </button>
+
+                <div class="faq-answer" id="faq-answer-1">
+
+                    <p>
+                        You can track your order using the
+                        order tracking option and your order details.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FAQ 2 -->
+            <div class="faq-item active">
+
+                <button
+                    class="faq-question"
+                    type="button"
+                    aria-expanded="true"
+                    aria-controls="faq-answer-2">
+
+                    <span>
+                        What is the return policy?
+                    </span>
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </button>
+
+                <div class="faq-answer" id="faq-answer-2">
+
+                    <p>
+                        Please review our returns information
+                        for the applicable return requirements
+                        and process.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FAQ 3 -->
+            <div class="faq-item active">
+
+                <button
+                    class="faq-question"
+                    type="button"
+                    aria-expanded="true"
+                    aria-controls="faq-answer-3">
+
+                    <span>
+                        How long does delivery take?
+                    </span>
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </button>
+
+                <div class="faq-answer" id="faq-answer-3">
+
+                    <p>
+                        Delivery time can vary depending on
+                        your location and the selected delivery option.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FAQ 4 -->
+            <div class="faq-item active">
+
+                <button
+                    class="faq-question"
+                    type="button"
+                    aria-expanded="true"
+                    aria-controls="faq-answer-4">
+
+                    <span>
+                        What payment methods are available?
+                    </span>
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </button>
+
+                <div class="faq-answer" id="faq-answer-4">
+
+                    <p>
+                        Available payment options include Visa,
+                        Mastercard and Cash on Delivery.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 17 — FOOTER
+========================================= -->
+
+<footer class="site-footer" id="footer">
+    <div class="footer-aurora footer-aurora-one"></div>
+    <div class="footer-aurora footer-aurora-two"></div>
+
+    <div class="footer-container">
+        <div class="footer-brand">
+            <a href="#home" class="footer-logo" aria-label="ShopEase Home">
+                Shop<span>Ease</span>
+            </a>
+            <p>
+                ShopEase is your modern destination for quality fashion,
+                footwear, accessories and everyday style.
+            </p>
+
+            <div class="footer-socials" aria-label="Social media">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#new-arrivals">New Arrivals</a></li>
+                <li><a href="#deals">Deals</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#shipping">Shipping</a></li>
+                <li><a href="#returns">Returns</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#tracking">Order Tracking</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column footer-contact">
+            <h3>Contact</h3>
+            <ul>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="mailto:RRAW001@gmail.com">RRAW001@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+923031234567">+923031234567</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Sheikhupura, Pakistan</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-bottom-container">
+            <p>© 2026 ShopEase. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms &amp; Conditions</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
